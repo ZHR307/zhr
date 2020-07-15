@@ -1,0 +1,16 @@
+#ifndef PAINTT_H
+#define PAINTT_H
+
+#include <QWidget>
+
+class paintt : public QWidget
+{
+    Q_OBJECT
+public:
+    explicit paintt(QWidget *parent = nullptr);
+
+signals:
+
+};
+
+#endif // PAINTT_H
